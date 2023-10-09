@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+#root {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    width: 375px;
+    height: 812px;
+    border: 1px solid red;
+    background:  #0C0F14;   
+}
+.Nav-Container {
+    display:flex;
+    flex-direction: row;
+    margin-top: 44px;
+    padding: 0px 37px 0px 22px;
+    border: 1px solid yellow;
+    justify-content: space-between;
+    width: 100%;
+    height: 42px;
+    flex-shrink: 0; 
+    
+}
+.navbar {
+    display:flex;
+      
+}
+.Heading {
+    border: 1px solid cadetblue;
+    width: 192px; 
+    margin-left: 33px;
+    margin-top: 30px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.Coffe-textcolor {
+color: #D98046;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; 
+}
+
+.Search-container {
+display: flex;
+width: 305px;
+margin-left: 33px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+border-radius: 16px;
+background: rgba(255, 255, 255, 0.08);
+box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(4px); 
+
+}
+
+.Search-content, .p {
+display: flex;
+align-items: center;
+gap: 10px;
+padding-left: 13px;
+border-radius: 16px;
+}
+
+.main-container {
+width: 100%;
+display: flex;
+border: 1px solid white;
+}
+
+.coffee-cards {
+display: flex;
+flex-direction: row;
+width: 139px;
+height: 249px;
+border: 1px solid goldenrod;
+padding: 9px 9px 11px 9px;
+border-radius: 23px;
+gap: 10px;
+background: linear-gradient(162deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 100%);
+backdrop-filter: blur(4px);
+}
+.coffee-image {
+width: 139px;
+height: 249px;
+border-radius: 23px;
+background: linear-gradient(162deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 100%);
+backdrop-filter: blur(4px);
+}
+.Footer-container {
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 74px;
+flex-shrink: 0;
+background: rgba(13, 16, 21, 0.96);
+backdrop-filter: blur(2px);  
+}
